@@ -18,7 +18,7 @@ router.post('/', (req: Request, res: Response) => {
 });
 
 router.get('/new', (req: Request, res: Response) => {
-  res.send('User new form');
+  res.render('users/new');
 });
 
 const users = [{ name: 'Kyle' }, { name: 'Sally' }];
